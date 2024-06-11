@@ -43,7 +43,7 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: react_docker
+          application_name: react-docker
           environment_name: React-docker-env
           version_label: "react_docker: ${{ github.sha }}"
           region: us-east-2
